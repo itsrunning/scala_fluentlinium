@@ -6,5 +6,6 @@ import org.openqa.selenium.firefox.FirefoxDriver
 
 
 package object Driver {
-  val webDriver = new  FirefoxDriver()
+  val webDriver = new  HtmlUnitDriver(BrowserVersion.FIREFOX_17)
+
 }
